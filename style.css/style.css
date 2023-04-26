@@ -47,6 +47,10 @@
     color: white;
 }
 
+.txt-small{
+    font-size: small;
+}
+
 
 .bar-green{
     background-color: lime;
@@ -88,7 +92,7 @@ ul{
 
 nav{
     background-color: #000000;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     width: 60px;
     justify-content: space-between;
 }
@@ -113,14 +117,15 @@ div.profile-image{
 
 section{
     background-color: #141922;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     width: calc(100% - 60px);
 }
 
 footer{
     background-color: #282828;
-    height: 100px;
+    height: 80px;
     width: 100%;
+    padding: 1rem;
 }
 
 .responsive-none{
@@ -157,3 +162,44 @@ div.songs .song{
 .song img{
     width: 100%;
 }
+
+footer div.player.left i{
+    margin-bottom: .23rem;
+}
+
+div.player{
+    width: calc(100% / 3 - 1rem);
+}
+
+div.left-item{
+    width: calc(100% / 3 - 1rem);
+}
+
+div.image img{
+    width: 100%;
+    object-fit: contain;
+}
+
+div.time-song{
+    margin-top: 1rem;
+}
+
+div.line-gray{
+    width: calc(100% - 70px);
+    height: 3px;
+    background-color: gray;
+    border-radius: 2rem;
+    margin-top: .55rem;
+}
+
+div.line-white{
+    height: 3px;
+    width: 30%;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+i.fa-circle-play{
+    font-size: 1.5rem;
+}
+

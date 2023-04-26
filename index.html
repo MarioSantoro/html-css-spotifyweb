@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+
+    <!-- FONT AWESOME 6.4.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="stylesheet" href="style.css/style.css">
     <title>Spotify Web</title>
 </head>
@@ -136,8 +140,45 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="flex between">
+        <div class="player left flex between align-center">
+            <div class="image left-item">
+                <img src="img/sinister.jpeg" alt="Sinister image">
+            </div>
+            <div class="name-song left txt-medium txt-white">
+                <h3>Sinister</h3>
+                <h4>Nome Brano</h4>
+            </div>
+            <div class="icon left flex flex-direction">
+                <i class="fa-regular fa-heart txt-gray"></i>
+                <i class="fa-regular fa-folder txt-gray"></i>
+            </div>
+        </div>
+        <div class="player center">
+            <div class="controls flex between align-center">
+                <i class="fa-solid fa-shuffle txt-white"></i>
+                <i class="fa-solid fa-backward-step txt-white"></i>
+                <i class="fa-regular fa-circle-play txt-white"></i>
+                <i class="fa-solid fa-forward-step txt-white"></i>
+                <i class="fa-solid fa-arrow-rotate-right txt-white"></i>
+            </div>
 
+            <div class="time-song flex between">
+                <span class="txt-small txt-white">0:25</span>
+                <div class="line-gray">
+                    <div class="line-white"></div>
+                </div>
+                <span class="txt-small txt-white">4:35</span>
+            </div>
+        </div>
+        <div class="player right flex align-center between">
+            <i class="fa-solid fa-list txt-white txt-medium"></i>
+            <i class="fa-solid fa-desktop txt-white txt-medium"></i>
+            <i class="fa-solid fa-volume-high txt-white txt-medium"></i>
+            <div class="line-gray">
+                <div class="line-white"></div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
