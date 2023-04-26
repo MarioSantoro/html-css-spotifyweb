@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 .flex{
@@ -12,17 +13,29 @@
 nav{
     background-color: #000000;
     height: calc(100vh - 100px);
-    width: 50px;
+    width: 60px;
+}
+
+div.nav{
+    padding: 0.55rem 1rem;  
 }
 
 section{
     background-color: #141922;
     height: calc(100vh - 100px);
-    width: calc(100% - 50px);
+    width: calc(100% - 60px);
 }
 
 footer{
     background-color: #282828;
     height: 100px;
     width: 100%;
+}
+
+.responsive-none{
+    display: none;
+}
+
+#logo-big{
+    display: none;
 }
