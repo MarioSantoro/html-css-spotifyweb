@@ -4,18 +4,47 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .flex{
     display: flex;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .flex-direction{
     flex-direction: column;
 }
 
+.container{
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
 .txt-right{
     text-align: right;
+}
+
+.txt-uppercase{
+    text-transform: uppercase;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.txt-medium{
+    font-size: .75rem;
+}
+
+.bar-green{
+    background-color: lime;
+    height: 2px;
+    border: 2rem;
+    width: 40%;
 }
 
 .btn{
@@ -23,6 +52,26 @@
     border: 1px solid white;
     background: transparent;
     padding: .55rem 2rem;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.overflow{
+    overflow: auto;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
 }
 
 nav{
@@ -73,4 +122,17 @@ footer{
 section header{
     background-color: #080b12;
     padding: 1.5rem;
+}
+
+section ul li{
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+div.songs .song{
+    width: calc(100% / 2 - 1rem);
+}
+
+.song img{
+    width: 100%;
 }
