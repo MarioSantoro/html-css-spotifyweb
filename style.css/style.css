@@ -68,6 +68,7 @@
     height: 2px;
     border: 2rem;
     width: 40%;
+    margin-top: .22rem;
 }
 
 .radius-50{
@@ -201,6 +202,7 @@ div.songs{
 div.songs .song{
     position: relative;
     width: calc(100% / 2 - .55rem);
+    transition: all .5s;
 }
 
 .song img{
@@ -265,8 +267,9 @@ i.fa-circle-play{
 div.play{
     display: none;
     position: absolute;
+    z-index: 2;
 
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50% , -50%);
 }
@@ -279,10 +282,84 @@ div.song:hover div.play{
     display: block;
 }
 
-div.song img:hover{
+div.song div.play,
+div.song img{
+    cursor: pointer;
+}
+
+div.song:hover img{
     filter: opacity(0.6);
 }
 
+header button{
+    transition: all 1s;
+}
+
+header button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+div.container ul li:hover ,
+div.nav ul li:hover
+{
+    color: white;
+    cursor: pointer;
+}
+
+div.button:hover span{
+    color: white;
+    cursor: pointer;
+}
+
+div.button:hover button{
+    background-color: white;
+}
+
+div.download:hover span{
+    color: white;
+    cursor: pointer;
+}
+
+div.icon i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+div.player.center div.line-gray:hover div.line-white{
+    background-color: lime;
+    cursor: pointer;
+}
+
+div.player.center div.line-gray:hover div.range{
+    display: block;
+}
+
+div.range{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+div.player.right div.line-gray:hover div.line-white{
+    background-color: lime;
+    cursor: pointer;
+}
+
+div.player.right div.line-gray:hover div.range{
+    display: block;
+}
+
+div.controls i.fa-circle-play{
+    transition: all 1s;
+    cursor: pointer;
+}
+
+div.controls i.fa-circle-play:hover{
+    transform: scale(1.2);
+}
 @media screen and (min-width:576px) {
     nav{
         width: 200px;
