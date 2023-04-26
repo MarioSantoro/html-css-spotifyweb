@@ -199,6 +199,7 @@ div.songs{
 }
 
 div.songs .song{
+    position: relative;
     width: calc(100% / 2 - .55rem);
 }
 
@@ -256,6 +257,30 @@ div.player.right{
 
 i.fa-circle-play{
     font-size: 1.5rem;
+}
+
+
+                /* ANIMATION */
+
+div.play{
+    display: none;
+    position: absolute;
+
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+div.play i{
+    font-size: 5rem;
+}
+
+div.song:hover div.play{
+    display: block;
+}
+
+div.song img:hover{
+    filter: opacity(0.6);
 }
 
 @media screen and (min-width:576px) {
