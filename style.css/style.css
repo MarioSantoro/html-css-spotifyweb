@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -40,11 +39,24 @@
     font-size: .75rem;
 }
 
+.txt-gray{
+    color: gray;
+}
+
+.txt-white{
+    color: white;
+}
+
+
 .bar-green{
     background-color: lime;
     height: 2px;
     border: 2rem;
     width: 40%;
+}
+
+.radius-50{
+    border-radius: 50%;
 }
 
 .btn{
@@ -129,8 +141,17 @@ section ul li{
     margin-top: 1rem;
 }
 
+section h2{
+    margin: 2rem 0;
+}
+
+section h4 ,
+section h5{
+    margin: 1rem 0;
+}
+
 div.songs .song{
-    width: calc(100% / 2 - 1rem);
+    width: calc(100% / 2 - .55rem);
 }
 
 .song img{
