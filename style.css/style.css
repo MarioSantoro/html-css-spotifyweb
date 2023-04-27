@@ -136,6 +136,11 @@ div.nav li{
     margin-bottom: 1rem;
 }
 
+div.download img{
+    width: 28px;
+    height: 30px;
+}
+
 div.profile-image{
     width: 30px;
     height: 30px;
@@ -388,6 +393,7 @@ div.controls i.fa-circle-play:hover{
 
     div.download img{
         width: 20px;
+        height: 100%;
     }
 
     .nav-image{
