@@ -143,6 +143,7 @@ nav{
     height: calc(100vh - 80px);
     width: 60px;
     justify-content: space-between;
+    transition: all .5s;
 }
 
 ul{
@@ -159,6 +160,10 @@ span{
 
 div.nav li{
     margin-bottom: 1rem;
+}
+
+div.nav.lower span{
+    margin-left: .55rem;
 }
 
 div.download img{
