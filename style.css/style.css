@@ -520,10 +520,6 @@ div.controls i.fa-circle-play:hover{
         flex-direction: row;
         gap: .55rem;
     }
-
-    div.controls i{
-        margin-right: 1rem;
-    }
 }
 
 /* ***************************** 
@@ -540,5 +536,9 @@ div.controls i.fa-circle-play:hover{
 
     div.controls{
         justify-content: center;
+    }
+
+    div.controls i{
+        margin-right: 1rem;
     }
 }
