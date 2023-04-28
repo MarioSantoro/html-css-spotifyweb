@@ -144,6 +144,7 @@ nav{
     width: 60px;
     justify-content: space-between;
     transition: all .5s;
+    overflow: hidden;
 }
 
 ul{
@@ -160,6 +161,10 @@ span{
 
 div.nav li{
     margin-bottom: 1rem;
+}
+
+.playlist ul{
+    height: 28vh;
 }
 
 div.nav.lower span{
@@ -405,6 +410,10 @@ div.controls i.fa-circle-play:hover{
 @media screen and (min-width:576px) {
     nav{
         width: 200px;
+    }
+
+    section{
+        left: 200px;
     }
 
     div.nav{
