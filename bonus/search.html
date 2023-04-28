@@ -17,35 +17,34 @@
     <!-- FONT AWESOME 6.4.0 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <link rel="stylesheet" href="style.css/style.css">
-    <title>Spotify Web</title>
+    <link rel="stylesheet" href="search.css">
+    <title>Search</title>
 </head>
 <body>
-
-    <!-- MAIN -->
+        <!-- MAIN -->
     <main class="flex">
 
         <!-- NAVBAR -->
         <nav class="flex flex-direction ">
             <div class="nav upper">
-                <img src="img/logo-small.svg" alt="logo-small " class="responsive" >
+                <img src="../img/logo-small.svg" alt="logo-small " class="responsive" >
                 <div class="nav-image">
-                    <img src="img/logo.svg" alt="logo-big" class="responsive-none">
+                    <img src="../img/logo.svg" alt="logo-big" class="responsive-none">
                 </div>
                 <ul class="menu">
                     <li class="flex align-center txt-white">
-                        <img src="img/home.svg" alt="Home icon">
+                        <img src="../img/home.svg" alt="Home icon" class="txt-gray">
                         <span class="responsive-none">Home</span>
                     </li>
                     <li  class="flex align-center txt-gray">
-                        <a href="bonus/search.html" class="txt-gray flex align-center">
-                            <img src="img/search.svg" alt="search icon" class="txt-gray">
+                        <a href="search.html" class="txt-gray flex align-center">
+                            <img src="../img/search.svg" alt="search icon">
                             <span class="responsive-none">Cerca</span>
                         </a>
                     </li>
 
                     <li  class="flex align-center txt-gray">
-                        <img src="img/libreria.svg" alt="libreria image" class="txt-gray">
+                        <img src="../img/libreria.svg" alt="libreria image" class="txt-gray">
                         <span class="responsive-none">La tua libreria</span>
                     </li>
                 </ul>
@@ -70,7 +69,7 @@
             </div>
             <div class="nav lower">
                  <div class="download flex">
-                    <img src="img/download.svg" alt="download image">
+                    <img src="../img/download.svg" alt="download image">
                     <span class="responsive-none txt-gray">Installa app</span>
                  </div>
                  <div class="bar-gray">
@@ -87,121 +86,83 @@
         <section class="content overflow">
 
             <!-- HEADER SECTION -->
-            <header class="txt-right">
-                <button class="btn txt-uppercase txt-white">Effettua l'upgrade</button>
+            <header class="txt-right flex between align-center">
+                <button class="btn-search flex align-center">
+                    <img src="../img/search.svg" alt="Search image" >
+                    <span class="txt-gray txt-bold">Cosa vuoi ascoltare?</span>   
+                </button>
+                <div class="header-right">
+                    <span class="txt-gray txt-bold">Iscriviti</span>
+                    <button class="btn txt-bold">Accedi</button>
+                </div>
             </header>
-            <div class="container ">
-                <ul class="flex flex-wrap justify-center txt-uppercase txt-medium txt-gray txt-bold">
-                    <li class="flex flex-direction align-center">In evidenza
-                        <div class="bar-green"></div>
-                    </li>
-                    <li>Podcast</li>
-                    <li>Classifiche</li>
-                    <li>Generi e mood</li>
-                    <li>Nuove uscite</li>
-                    <li>Scopri</li>
-                </ul>
 
-                <h2 class="txt-white">Recently played</h2>
+            <div class="container">
+                <h2 class="txt-white">Sfoglia Tutto</h2>
 
                 <!-- CONTAINER ALBUMS -->
                 <div class="songs flex flex-wrap">
                     <div class="song">
-                        <div class="play ">
-                            <i class="fa-regular fa-circle-play txt-white "></i>
-                        </div>
-                        <img src="img/metal_lifting.jpg" alt="Metal songs image">
-                        <h4 class="txt-center txt-white">Heavy Metal</h4>
-                        <h5 class="txt-center txt-gray">Subtitle</h5>
+                        <h4 class="txt-white">Heavy Metal</h4>
+                        <img src="../img/stranger.jpeg" alt="">
                     </div>
                     <div class="song">
-                        <div class="play ">
-                            <i class="fa-regular fa-circle-play txt-white "></i>
-                        </div>
-                        <img src="img/stranger.jpeg" alt="Stranger songs image">
-                        <h4 class="txt-center txt-white">Heavy Metal</h4>
-                        <h5 class="txt-center txt-gray">Subtitle</h5>
+                        <h4 class="txt-white">Heavy Metal</h4>
                     </div>
                     <div class="song">
-                        <div class="play ">
-                            <i class="fa-regular fa-circle-play txt-white "></i>
-                        </div>
-                        <img src="img/aquietplace.jpeg" alt="Quiet songs image">
-                        <h4 class="txt-center txt-white">Heavy Metal</h4>
-                        <h5 class="txt-center txt-gray">Subtitle</h5>
+                        <h4 class="txt-white">Heavy Metal</h4>
                     </div>
                     <div class="song">
-                        <div class="play ">
-                            <i class="fa-regular fa-circle-play txt-white "></i>
-                        </div>
-                        <img src="img/split.jpeg" alt="Split songs image">
-                        <h4 class="txt-center txt-white">Heavy Metal</h4>
-                        <h5 class="txt-center txt-gray">Subtitle</h5>
+                        <h4 class="txt-white">Heavy Metal</h4>
+                        <img src="../img/stranger.jpeg" alt="">
                     </div>
                     <div class="song">
-                        <div class="play ">
-                            <i class="fa-regular fa-circle-play txt-white "></i>
-                        </div>
-                        <img src="img/cure.jpeg" alt="Cure songs image">
-                        <h4 class="txt-center txt-white">Heavy Metal</h4>
-                        <h5 class="txt-center txt-gray">Subtitle</h5>
+                        <h4 class="txt-white">Heavy Metal</h4>
                     </div>
                     <div class="song">
-                        <div class="play ">
-                            <i class="fa-regular fa-circle-play txt-white "></i>
-                        </div>
-                        <img src="img/sinister.jpeg" alt="Sinister songs image">
-                        <h4 class="txt-center txt-white">Heavy Metal</h4>
-                        <h5 class="txt-center txt-gray">Subtitle</h5>
-                    </div>
-                </div>
-
-                <h2 class="txt-white">Creato per Mario Santoro</h2>
-                <h5 class="txt-gray">Più ascolti,più accurati saranno i suggerimenti</h5>
-
-                <!-- CONTAINER PERSONAL ALBUMS -->
-                <div class="personal songs flex between flex-wrap">
-                    <div class="song">
-                        <div class="play ">
-                            <i class="fa-regular fa-circle-play txt-white "></i>
-                        </div>
-                        <img src="img/radar.jpeg" alt="Radar songs image">
-                        <h4 class="txt-center txt-white">Release Radar</h4>
+                        <h4 class="txt-white">Heavy Metal</h4>
                     </div>
                     <div class="song">
-                        <div class="play ">
-                            <i class="fa-regular fa-circle-play txt-white "></i>
-                        </div>
-                        <img src="img/mixdaily.jpeg" alt="Daily mix songs image">
-                        <h4 class="txt-center txt-white">daily Mix 1</h4>
+                        <h4 class="txt-white">Heavy Metal</h4>
+                        <img src="../img/stranger.jpeg" alt="">
                     </div>
-                </div>
-
-                <h2 class="txt-white">Artisti più popolari</h2>
-                <h5 class="txt-gray">Più ascolti,più accurati saranno i suggerimenti</h5>
-
-                <!-- CONTAINER ARTIST -->
-                <div class="Artist songs flex between flex-wrap">
-                    <div class="song ">
-                        <img src="img/youg.jpeg" alt="Radar songs image" class="radius-50">
-                        <h4 class="txt-center txt-white">Lana del Rey</h4>
+                    <div class="song">
+                        <h4 class="txt-white">Heavy Metal</h4>
                     </div>
-                    <div class="song radius-50">
-                        <img src="img/einaudi.jpeg" alt="Daily mix songs image" class="radius-50">
-                        <h4 class="txt-center txt-white">Ludovico Einaudi</h4>
+                    <div class="song">
+                        <h4 class="txt-white">Heavy Metal</h4>
                     </div>
-                </div>
+                    <div class="song">
+                        <h4 class="txt-white">Heavy Metal</h4>
+                        <img src="../img/stranger.jpeg" alt="">
+                    </div>
+                    <div class="song">
+                        <h4 class="txt-white">Heavy Metal</h4>
+                    </div>
+                    <div class="song">
+                        <h4 class="txt-white">Heavy Metal</h4>
+                    </div>
+                    <div class="song">
+                        <h4 class="txt-white">Heavy Metal</h4>
+                        <img src="../img/stranger.jpeg" alt="">
+                    </div>
+                    <div class="song">
+                        <h4 class="txt-white">Heavy Metal</h4>
+                    </div>
+                    <div class="song">
+                        <h4 class="txt-white">Heavy Metal</h4>
+                    </div>
             </div>
         </section>
     </main>
-
-    <!-- FOOTER -->
+        
+        <!-- FOOTER -->
     <footer class="flex between">
 
         <!-- PLAYER LEFT SIDE -->
         <div class="player left flex align-center">
             <div class="image left-item">
-                <img src="img/sinister.jpeg" alt="Sinister image">
+                <img src="../img/sinister.jpeg" alt="Sinister image">
             </div>
             <div class="name-song left-item txt-smaller txt-white">
                 <h3>Sinister</h3>
